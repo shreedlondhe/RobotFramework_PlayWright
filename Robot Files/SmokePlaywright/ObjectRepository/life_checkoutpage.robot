@@ -1,0 +1,11 @@
+*** Variables ***
+${life.title.select}    //span[@class='ui-select-choices-row-inner']
+${life.checkout.header}    //div[@class='title hidden-xs']
+${life.checkout.lname}    //input[@id='insuredMemberLName']
+${life.checkout.mobileno}    //input[@id='insuredMemberMobile']
+${life.checkout.email}    //input[@id='insuredMemberEmail']
+${life.checkout.continuebtn}    //button[normalize-space()='Continue']
+${life.checkout.checkmark1}    //div[@class='ng-scope userApprovalDisclaimer1-field']//label[@class='checkout-checkbox flex layout-row']//span//span[@class='checkmark']
+${life.user.approval.header}    //div[@bind-html-compile='section.heading']
+${life.checkout.checkmark2}    //div[@class='ng-scope userApprovalDisclaimer2-field']//label[@class='checkout-checkbox flex layout-row']//span//span[@class='checkmark']
+${life.checkout.submit&proceedbtn}    //button[normalize-space()='Submit and Proceed']
